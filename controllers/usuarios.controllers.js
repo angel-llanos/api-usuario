@@ -7,7 +7,7 @@ const getUsuarios = (req = request, res = response)=>{
     return res.json({
         ok:true,
         statuscode: 200,
-        Ususarios:usuarios
+        Usuarios:usuarios
     })
 
 }
